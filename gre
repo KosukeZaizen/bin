@@ -1,0 +1,42 @@
+#!/bin/sh
+
+if [ $# = 1 ]
+then
+
+  #引数が一つの場合、引数の文字列を含むファイルを検索し、該当行を表示
+  echo ""
+  echo "---------------------"
+  echo "Current Path:"
+  pwd
+  echo ""
+  find . -type f | xargs grep $1
+  echo "---------------------"
+
+else
+
+  if [ "$1" = "file" ]
+  then
+
+    #第一引数が-の時は、ファイル名で検索し、ファイルの在りかを表示
+    echo ""
+    echo "---------------------"
+    echo "Current Path:"
+    pwd
+    echo ""
+    find . -type f -name $2
+    echo "---------------------"
+
+  else
+
+    #第一引数がちゃんとした文字列の場合は、条件にマッチするファイルの該当行を表示
+    echo ""
+    echo "---------------------"
+    echo "Current Path:"
+    pwd
+    echo ""
+    find . -type f -name $2 | xargs grep $1
+    echo "---------------------"
+
+  fi
+
+fi
