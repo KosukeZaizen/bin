@@ -16,22 +16,22 @@ and use them.
 viエディタで開きます。
 
 ------------------------------------------------------------
-使用例：
-v appli*.rb
+使用例：<br />
+v appli*.rb<br />
 
-配下に同名ファイルが複数あります:
-     1  ./app/controllers/application_controller.rb
-     2  ./app/helpers/application_helper.rb
-     3  ./app/jobs/application_job.rb
-     4  ./app/mailers/application_mailer.rb
-     5  ./app/models/application_record.rb
-     6  ./config/application.rb
-     7  ./config/initializers/application_controller_renderer.rb
-     8  ./test/application_system_test_case.rb
+配下に同名ファイルが複数あります:<br />
+     1  ./app/controllers/application_controller.rb<br />
+     2  ./app/helpers/application_helper.rb<br />
+     3  ./app/jobs/application_job.rb<br />
+     4  ./app/mailers/application_mailer.rb<br />
+     5  ./app/models/application_record.rb<br />
+     6  ./config/application.rb<br />
+     7  ./config/initializers/application_controller_renderer.rb<br />
+     8  ./test/application_system_test_case.rb<br />
 
 何番目のファイルを開きますか?:2
 
 ------------------------------------------------------------
 
-上記の例のように複数ファイルがヒットする場合は、
+上記の例のように複数ファイルがヒットする場合は、<br />
 開きたいファイルを数字で指定します。
