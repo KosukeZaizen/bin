@@ -18,7 +18,7 @@ viエディタで開きます。
 ------------------------------------------------------------
 <h2>使用例：</h2><br />
 v appli*.rb<br />
-
+<br />
 配下に同名ファイルが複数あります:<br />
      1  ./app/controllers/application_controller.rb<br />
      2  ./app/helpers/application_helper.rb<br />
