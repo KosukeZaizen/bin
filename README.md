@@ -11,6 +11,7 @@ and use them.
 よろしければbinに入れてお使いください。
 <br />
 <br />
+<br />
 # v
 <br />
 Search the directory structure recursively,<br />
@@ -20,7 +21,8 @@ that you typed as an argument.<br />
 今見ているフォルダ配下のファイルを再帰的に見て、<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
 <br />
-------------------------------------------------------------
+<br />
+<br />
 <h2>使用例：</h2><br />
 v appli*.rb<br />
 <br />
@@ -37,7 +39,7 @@ v appli*.rb<br />
 何番目のファイルを開きますか?:2<br />
 <br />
 ------------------------------------------------------------
-<br />
+<br /><br /><br />
 Like the above, if there are some files matching with the searched pattern,<br />
 please type the number of the file which you want to open.
 <br />
