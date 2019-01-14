@@ -24,7 +24,7 @@ that you typed as an argument.<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
 <br />
 <hr />
-<h3>使用例：</h3><br />
+<h3>How to use(使用例)：</h3><br />
 v appli*.rb<br />
 <br />
 配下に同名ファイルが複数あります:<br /><br />
