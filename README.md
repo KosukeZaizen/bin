@@ -21,8 +21,8 @@ that you typed as an argument.<br />
 今見ているフォルダ配下のファイルを再帰的に見て、<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
 <br />
-<br />
 <hr />
+<br />
 <h2>使用例：</h2><br />
 v appli*.rb<br />
 <br />
