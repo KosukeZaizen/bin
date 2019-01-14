@@ -17,12 +17,12 @@ then
     #ファイル名一覧にスペースが含まれるということは、
     #複数ファイルあるので、どれを開くか聞く
 
-    echo "配下に同名ファイルが複数あります:"
+    echo "There are some files:"
     echo $fileNames | tr ' ' '\n' > ~/bin/tmpFN
     cat -n ~/bin/tmpFN
     rm ~/bin/tmpFN
     echo ""
-    echo -n 何番目のファイルを開きますか?:
+    echo -n Please type the number of the file to open:
     read str
 
     #受け取った番号のファイルを開く
