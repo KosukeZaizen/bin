@@ -25,7 +25,7 @@ that you typed as an argument.<br />
 <br />
 <hr />
 <h3>How to use(使用例)：</h3><br />
-v appli*.rb<br />
+<span style="color:red;"><b>v appli*.rb</b></span><br />
 <br />
 配下に同名ファイルが複数あります:<br /><br />
      1  ./app/controllers/application_controller.rb<br />
@@ -37,7 +37,7 @@ v appli*.rb<br />
      7  ./config/initializers/application_controller_renderer.rb<br />
      8  ./test/application_system_test_case.rb<br />
 <br />
-何番目のファイルを開きますか?:2<br />
+何番目のファイルを開きますか?:<span style="color:red;"><b>2</b></span><br />
 <hr />
 <br />
 Like the above, if there are some files matching with the searched pattern,<br />
