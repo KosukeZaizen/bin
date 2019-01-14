@@ -12,7 +12,7 @@ and use them.
 <br />
 <br />
 <hr />
-# v
+<h2>v<h2>
 <br />
 Search the directory structure recursively,<br />
 and open the file which matches with the pattern of the file name<br />
@@ -23,7 +23,7 @@ that you typed as an argument.<br />
 <br />
 <hr />
 <br />
-<h2>使用例：</h2><br />
+<h3>使用例：</h3><br />
 v appli*.rb<br />
 <br />
 配下に同名ファイルが複数あります:<br /><br />
