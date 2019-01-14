@@ -25,7 +25,7 @@ that you typed as an argument.<br />
 <br />
 <hr />
 <h3>How to use(使用例)：</h3><br />
-<span style="color:red;"><b>v appli*.rb</b></span><br />
+<font color="red"><b>v appli*.rb</b></font><br />
 <br />
 There are some files:<br /><br />
      1  ./app/controllers/application_controller.rb<br />
@@ -37,7 +37,7 @@ There are some files:<br /><br />
      7  ./config/initializers/application_controller_renderer.rb<br />
      8  ./test/application_system_test_case.rb<br />
 <br />
-Please type the number of the file to open:<span style="color:red;"><b>2</b></span><br />
+Please type the number of the file to open:<font color="red"><b>2</b></font><br />
 <hr />
 <br />
 Like the above, if there are some files matching with the searched pattern,<br />
