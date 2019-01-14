@@ -2,9 +2,8 @@
 <br />
 2019-01-13 Kosuke Zaizen(財前航介)<br />
 <br />
-This is my original commands for Linux.
-Please put these files in your "bin" folder,
-and use them.
+This is my original commands for Linux.<br />
+Please put these files in your "bin" folder to use them.
 <br />
 <br />
 僕のLinuxのbinに入れてあるShell Scriptで作った自作コマンドです。<br />
