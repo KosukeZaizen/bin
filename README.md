@@ -11,7 +11,7 @@ and use them.
 よろしければbinに入れてお使いください。
 <br />
 <br />
-<br />
+<hr />
 # v
 <br />
 Search the directory structure recursively,<br />
@@ -38,7 +38,7 @@ v appli*.rb<br />
 <br />
 何番目のファイルを開きますか?:2<br />
 <hr />
-<br /><br /><br />
+<br />
 Like the above, if there are some files matching with the searched pattern,<br />
 please type the number of the file which you want to open.
 <br />
