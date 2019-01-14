@@ -1,8 +1,8 @@
 # Original Linux Command (Shell Script)
-2019-01-13 Kosuke Zaizen(財前航介)
+<br />
+2019-01-13 Kosuke Zaizen(財前航介)<br />
 <br />
 This is my original commands for Linux.
-
 Please put these files in your "bin" folder,
 and use them.
 <br />
@@ -14,7 +14,6 @@ and use them.
 <br />
 <hr />
 <h2>v</h2>
-<br />
 Search the directory structure recursively,<br />
 and open the file which matches with the pattern of the file name<br />
 that you typed as an argument.<br />
