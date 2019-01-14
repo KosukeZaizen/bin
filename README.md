@@ -7,8 +7,11 @@ Please put these files in your "bin" folder to use them.
 <br />
 <br />
 僕のLinuxのbinに入れてあるShell Scriptで作った自作コマンドです。<br />
-よろしければbinに入れてお使いください。
+よろしければbinに入れてお使いください。<br />
 <br />
+<b>Example:</b><br />
+　~/bin/v<br />
+　~/bin/gre<br />
 <br />
 <br />
 <hr />
