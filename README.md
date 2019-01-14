@@ -12,15 +12,15 @@ and use them.
 <br />
 <br />
 <hr />
-<h2>v<h2>
-<br /><p>
+<h2>v</h2>
+<br />
 Search the directory structure recursively,<br />
 and open the file which matches with the pattern of the file name<br />
 that you typed as an argument.<br />
 <br />
 今見ているフォルダ配下のファイルを再帰的に見て、<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
-<br /></p>
+<br />
 <hr />
 <br />
 <h3>使用例：</h3><br />
