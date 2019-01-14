@@ -22,7 +22,7 @@ that you typed as an argument.<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
 <br />
 <br />
-<br />
+<hr />
 <h2>使用例：</h2><br />
 v appli*.rb<br />
 <br />
@@ -37,8 +37,7 @@ v appli*.rb<br />
      8  ./test/application_system_test_case.rb<br />
 <br />
 何番目のファイルを開きますか?:2<br />
-<br />
-------------------------------------------------------------
+<hr />
 <br /><br /><br />
 Like the above, if there are some files matching with the searched pattern,<br />
 please type the number of the file which you want to open.
