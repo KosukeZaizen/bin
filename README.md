@@ -1,19 +1,23 @@
 # Linuxのオリジナルコマンドです。
-2019-01-13 財前航介
+2019-01-13 Kosuke Zaizen(財前航介)
 
-binに入れてお使いください。
+This is my original commands for Linux.
 
-
-This is original commands for Linux,
-made by Kosuke Zaizen.
-
-Please put these in your "bin" folder,
+Please put these files in your "bin" folder,
 and use them.
 
 
+僕のLinuxのbinに入れてあるShell Scriptで作った自作コマンドです。
+よろしければbinに入れてお使いください。
+
+
 # v
+Search the directory structure recursively,
+and open the file which matches with the pattern of the file name
+that you typed as an argument.
+
 今見ているフォルダ配下のファイルを再帰的に見て、
-viエディタで開きます。
+ファイル名がマッチするものをviエディタで開きます。
 
 ------------------------------------------------------------
 <h2>使用例：</h2><br />
@@ -28,10 +32,13 @@ v appli*.rb<br />
      6  ./config/application.rb<br />
      7  ./config/initializers/application_controller_renderer.rb<br />
      8  ./test/application_system_test_case.rb<br />
-
-何番目のファイルを開きますか?:2
-
+<br />
+何番目のファイルを開きますか?:2<br />
+<br />
 ------------------------------------------------------------
+
+Like the above, if there are some files matching with the searched pattern,
+please type the number of the file which you want to open.
 
 上記の例のように複数ファイルがヒットする場合は、<br />
 開きたいファイルを数字で指定します。
