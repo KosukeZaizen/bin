@@ -12,6 +12,7 @@ and use them.
 <br />
 <br />
 # v
+<br />
 Search the directory structure recursively,<br />
 and open the file which matches with the pattern of the file name<br />
 that you typed as an argument.<br />
