@@ -11,6 +11,7 @@ and use them.
 よろしければbinに入れてお使いください。
 <br />
 <br />
+<br />
 <hr />
 <h2>v</h2>
 <br />
@@ -22,7 +23,6 @@ that you typed as an argument.<br />
 ファイル名がマッチするものをviエディタで開きます。<br />
 <br />
 <hr />
-<br />
 <h3>使用例：</h3><br />
 v appli*.rb<br />
 <br />
