@@ -1,4 +1,4 @@
-# Linuxのオリジナルコマンドです。
+# Original Linux Command (Shell Script)
 2019-01-13 Kosuke Zaizen(財前航介)
 
 This is my original commands for Linux.
