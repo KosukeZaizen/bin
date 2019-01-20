@@ -13,6 +13,7 @@ then
 
   #ファイル名一覧にスペースが含まれるか判定
   if echo $fileNames | grep -1 " " > ~/bin/tmpToDelete; then
+    rm ~/bin/tmpToDelete
 
     #ファイル名一覧にスペースが含まれるということは、
     #複数ファイルあるので、どれを開くか聞く
@@ -33,6 +34,8 @@ then
 
   else
 
+    rm ~/bin/tmpToDelete
+
     echo $fileNames
 
     #たった一つだけのファイルがヒットしたので、開く
@@ -40,7 +43,6 @@ then
 
   fi
 
-rm ~/bin/tmpToDelete
 
 else
 
