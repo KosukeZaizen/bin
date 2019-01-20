@@ -1,0 +1,4 @@
+#!/bin/sh
+ga
+gc "$1"
+gp
