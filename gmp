@@ -1,0 +1,20 @@
+#!/bin/sh
+#Git Merge and Push
+
+currentBranch=`git branch | grep \*`
+
+trimmedBranch=`echo "$currentBranch" | sed -e 's/\*//g' | sed -e 's/\ //g'`
+
+echo "$trimmedBranch"
+
+
+ga #git add -A
+gc "$1" #git commit -m "$1"
+
+git checkout master
+git merge "$trimmedBranch"
+
+gp #git push
+git checkout "$trimmedBranch"
+
+
