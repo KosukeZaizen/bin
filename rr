@@ -1,0 +1,4 @@
+#!/bin/sh
+echo ""
+rake routes | grep "$1"
+echo ""
