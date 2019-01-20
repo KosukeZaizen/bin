@@ -2,3 +2,5 @@
 clear
 pwd
 echo ""
+ls
+echo ""
