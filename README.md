@@ -1,13 +1,10 @@
 # Original Linux Command (Shell Script)
 <br />
-2019-01-13 Kosuke Zaizen(財前航介)<br />
+2019-01-13 Kosuke Zaizen<br />
 <br />
 This is my original commands for Linux.<br />
 Please put these files in your "bin" folder to use them.
 <br />
-<br />
-僕のLinuxのbinに入れてあるShell Scriptで作った自作コマンドです。<br />
-よろしければbinに入れてお使いください。<br />
 <br />
 <b>Example:</b><br />
 　~/bin/v<br />
@@ -20,11 +17,8 @@ Search the directory structure recursively,<br />
 and open the file which matches with the pattern of the file name<br />
 that you typed as an argument.<br />
 <br />
-今見ているフォルダ配下のファイルを再帰的に見て、<br />
-ファイル名がマッチするものをviエディタで開きます。<br />
-<br />
 <hr />
-<h3>How to use(使用例)：</h3><br />
+<h3>How to use：</h3><br />
 <font color="red"><b>v appli*.rb</b></font><br />
 <br />
 There are some files:<br /><br />
@@ -43,5 +37,3 @@ Please type the number of the file to open:<font color="red"><b>2</b></font><br 
 Like the above, if there are some files matching with the searched pattern,<br />
 please type the number of the file which you want to open.
 <br />
-上記の例のように複数ファイルがヒットする場合は、<br />
-開きたいファイルを数字で指定します。
